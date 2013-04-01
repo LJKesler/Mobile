@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Leigh Kesler :: HTML 5 Mobile Web</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+		<link rel="stylesheet" href="custom.css"/>
+
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.js"></script>
+		<script src="custom.js"></script>
+
+	</head>
+	<body>
+		<div data-role="page" id="home">
+			<div data-role="header" data-position="fixed">
+				<h1>Mobile Demos</h1>
+			</div><div data-role="content">
+			<ul data-role="listview">
+				<li>
+					<a href="#quakeShake">
+						<h2>QuakeShake App</h2>
+						<p>Displays the last 30 days of earthquake data from an USGS RSS feed.</p>
+					</a>
+				</li>
+				<li>
+					<a href="#helloWorld">
+						<h2>Hello, World!</h2>
+						<p>A very, very simple Hello World jQuery Mobile example.</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+<div data-role="footer" data-id="persistentFooter" data-position="fixed"><p>Leigh Kesler | <a href="mailto:ljkesler@gmail.com">email</a> | <a href="tel:8044043313">804.404.3313</a></p></div>
+</div>
+
+		<div data-role="page" id="quakeShake">
+			<div data-role="header"data-position="fixed">
+				<a  data-rel="back" data-role="button" data-icon="arrow-l" class="ui-btn-left" >Back</a>
+				<h1>Earthquake Data</h1>
+				<a href="#" data-role="button" data-icon="refresh" data-inline="true" data-mini="true" class="ui-btn-right" data-iconpos="notext" id="refreshBtn">Refresh</a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview" data-split-icon="delete" data-split-theme='a' id="earthquakeList">
+					<li>Loading...</li>
+				</ul>	
+			</div>
+<div data-role="footer" data-id="persistentFooter" data-position="fixed"><p>Leigh Kesler | <a href="mailto:ljkesler@gmail.com">email</a> | <a href="tel:8044043313">804.404.3313</a></p></div>
+		</div>
+
+		<div data-role="page" id="helloWorld">
+			<div data-role="header"data-position="fixed">
+				<a data-rel="back" data-role="button" data-icon="arrow-l" class="ui-btn-left" >Back</a>
+				<h1>Hello, World!</h1>
+			</div>
+			<div data-role="content" class="centeredContent">	
+				<a href="#helloWorldPage2" data-role="button" data-icon="arrow-r" data-iconpos="right">Go to page 2</a>
+			</div>
+<div data-role="footer" data-id="persistentFooter" data-position="fixed"><p>Leigh Kesler | <a href="mailto:ljkesler@gmail.com">email</a> | <a href="tel:8044043313">804.404.3313</a></p></div>
+
+		</div>
+
+			<div data-role="page" id="helloWorldPage2">
+				<div data-role="header"data-position="fixed">
+					<a  data-rel="back" data-role="button" data-icon="arrow-l" class="ui-btn-left" >Back</a>
+					<h1>Access Times</h1>
+				</div>
+				<div data-role="content">
+<p>A jQuery Mobile list utilizing localstorage to display when you have accessed this page.</p>
+					<ul data-role="listview" id="applicationAccessList">
+						<li data-role=list-divider>Application Access Times</li>
+					</ul>	
+				</div>
+			<div data-role="footer" data-id="persistentFooter" data-position="fixed"><p>Leigh Kesler | <a href="mailto:ljkesler@gmail.com">email</a> | <a href="tel:8044043313">804.404.3313</a></p></div></div>
+
+	</body>
+</html>

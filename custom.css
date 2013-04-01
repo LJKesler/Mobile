@@ -1,0 +1,45 @@
+ .lightRed{
+        border: 1px solid #DC7275 /*{b-bup-border}*/;
+        background: #F57F83 /*{b-bup-background-color}*/;
+        font-weight: bold;
+        color: black /*{b-bup-color}*/;
+        text-shadow: 0 /*{b-bup-shadow-x}*/ 1px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ #EEE /*{b-bup-shadow-color}*/;
+        background-image: -webkit-gradient(linear, left top, left bottom, from( #FF8B90 /*{b-bup-background-start}*/), to( #DC7275 /*{b-bup-background-end}*/));
+        background-image: -webkit-linear-gradient( #FF8B90 /*{b-bup-background-start}*/, #DC7275 /*{b-bup-background-end}*/);
+        background-image: -moz-linear-gradient( #FF8B90 /*{b-bup-background-start}*/, #DC7275 /*{b-bup-background-end}*/);
+        background-image: -ms-linear-gradient( #FF8B90 /*{b-bup-background-start}*/, #DC7275 /*{b-bup-background-end}*/);
+        background-image: -o-linear-gradient( #FF8B90 /*{b-bup-background-start}*/, #DC7275 /*{b-bup-background-end}*/);
+        background-image: linear-gradient( #FF8B90 /*{b-bup-background-start}*/, #DC7275 /*{b-bup-background-end}*/);
+}
+.red{
+        border: 1px solid #FF2732 /*{a-bup-border}*/;
+        background: #ED1C24 /*{a-bup-background-color}*/;
+        font-weight: bold;
+        color: white /*{a-bup-color}*/!important;
+        text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #444 /*{a-bup-shadow-color}*/;
+        background-image: -webkit-gradient(linear, left top, left bottom, from( #8E1015 /*{a-bup-background-start}*/), to( #FF2732 /*{a-bup-background-end}*/));
+        background-image: -webkit-linear-gradient( #8E1015 /*{a-bup-background-start}*/, #FF2732 /*{a-bup-background-end}*/);
+        background-image: -moz-linear-gradient( #8E1015 /*{a-bup-background-start}*/, #FF2732 /*{a-bup-background-end}*/);
+        background-image: -ms-linear-gradient( #8E1015 /*{a-bup-background-start}*/, #FF2732 /*{a-bup-background-end}*/);
+        background-image: -o-linear-gradient( #8E1015 /*{a-bup-background-start}*/, #FF2732 /*{a-bup-background-end}*/);
+        background-image: linear-gradient( #8E1015 /*{a-bup-background-start}*/, #FF2732 /*{a-bup-background-end}*/);
+}
+        .red a{
+                color:#ffffff!important;
+        }
+li{
+        border:none!important;
+}
+.ui-content {
+        overflow: hidden;
+}
+.centeredContent{
+        margin: 0 auto;
+        height: 99%;
+        width: 99%;
+        top: 50%;
+        position: absolute;
+}
+#applicationAccessList{
+        margin-bottom: 10px;
+}
